@@ -1,0 +1,21 @@
+{
+  "name": "backEnd",
+  "version": "1.0.0",
+  "description": "rest api",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "appu",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "ejs": "^3.1.6",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.2"
+  }
+}
